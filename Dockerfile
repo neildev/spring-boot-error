@@ -14,4 +14,5 @@
 # limitations under the License.
 ###############################################################################
 
-FROM saturnism/spring-boot:1.2.3-jdk-8-groovy-2.4.3-onbuild
+FROM neildev/spring-boot:latest
+ADD . $SRC
